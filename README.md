@@ -4,9 +4,9 @@
 - [Objetivos](#-objetivos)
 - [Metodologia](#-metodologia)
 - [2. Requisitos](#2-requisitos)
-- [Requisitos funcionais](#-requisitos-funcionais)
-- [Requisitos não funcionais](#-requisitos-não-funcionais)
-- [3. Regras de negócio (Modelo canvas)](#3-regras-de-negócio-modelo-canvas)
+- [Requisitos funcionais](#-requisitos_funcionais)
+- [Requisitos não funcionais](#-requisitos_não_funcionais)
+- [3. Regras de negócio (Modelo canvas)](#3-regras_de_negócio_modelo_canvas)
 - [4. Design](#4-design)
 - [5. Protótipo](#5-protótipo)
 - [6. Aplicação](#6-aplicação)
@@ -26,8 +26,20 @@ Desenvolver uma plataforma institucional  para exibir informações sobre academ
 Na sequencia do projeto a ideia é organizar e gerenciar os documentos dos alunos da academia, facilitando o acesso, a visualização e o acompanhamento das informações tanto pelos alunos quanto pelos professores. 
 
 ## • Metodologia
-(Que métodos, tecnologias, modelos de processo, ferramentas irá utilizar?
-Responde à pergunta: Como? Com o que? Onde? Quando?)
+
+Scrum é uma metodologia ágil de gerenciamento de projetos, muito utilizada no desenvolvimento de software. Ele organiza o trabalho em ciclos curtos chamados sprints, onde a equipe planeja, executa e entrega partes funcionais do projeto de forma incremental.
+
+-Como?
+
+Utilizando a metodologia ágil Scrum, com ciclos de desenvolvimento em sprints, cerimônias como Daily, Sprint Planning, Sprint Review e Retrospectiva, garantindo entregas contínuas e incrementais.
+
+-Com o que?
+
+Com tecnologias de desenvolvimento web (HTML, CSS, JavaScript), ferramentas de design de interface, modelagem de requisitos funcionais e não funcionais, além do Modelo Canvas para estruturação do negócio.
+
+-Onde?
+
+com a aplicação hospedada em ambiente web para acesso remoto pelos usuários da Academia do Bill.
 
 # 2. Requisitos
 
