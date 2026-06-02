@@ -50,6 +50,22 @@ necessidades que devem ser atendidas))
 # 4. Design
 (Paleta de cor, Tipografia, Logo, Wireframes, Modelo de navegação)
 
+-Paleta de cores
+_🟨 Amarelo: #FDFD06
+_🟦 Azul Claro: #0194F8
+_🟦 Azul Principal: #0405C0
+_🔵 Azul Médio: #4F53C2
+_⚪ Branco: #FAFAF9
+
+-Tipografia
+_Poppins (titulos e subtitulos)
+_inter (textos)
+
+-Logo
+<img width="100" height="100" alt="download" src="https://github.com/user-attachments/assets/def8ebc5-58b4-4de3-906c-268dd94a92ec" />
+
+
+
 # 5. Protótipo
 (Gere um protótipo funcional na ferramenta que se sentir mais confortável (Figma, por
 exemplo) e apresente aqui, indicando o link).
