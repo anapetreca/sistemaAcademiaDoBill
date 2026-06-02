@@ -73,6 +73,14 @@ _inter (textos)
 <img width="100" height="100" alt="download" src="https://github.com/user-attachments/assets/def8ebc5-58b4-4de3-906c-268dd94a92ec" />
 
 
+-Wireframes
+
+<img width="297" height="617" alt="pag_inicial" src="https://github.com/user-attachments/assets/e13767e1-9d8e-4df8-8c7f-2ef1dcaf21f5" />
+
+
+-Modelo de navegação
+
+-<img width="855" height="52" alt="barra_navegação" src="https://github.com/user-attachments/assets/6c20c412-82b5-4638-a875-8ce8babf9bc8"/> 
 
 # 5. Protótipo
 (Gere um protótipo funcional na ferramenta que se sentir mais confortável (Figma, por
