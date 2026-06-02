@@ -17,9 +17,11 @@ Para cada semestre, do 1º ao 6º, iremos utilizar este template para documentar
 incrementalmente.
 
 # 1. Introdução
-(Contextualização, Justificativa (porquê?)
+
+O projeto "Academia do Bill" consiste no desenvolvimento de uma plataforma institucional voltada para a organização e gerenciamento de informações de uma academia. O sistema tem como objetivo facilitar o acesso a documentos e dados acadêmicos, atendendo alunos, professores, pais e administradores de forma prática e eficiente.
 
 ## • Objetivos
+
 Desenvolver uma plataforma institucional  para exibir informações sobre academia do Bill.
 Na sequencia do projeto a ideia é organizar e gerenciar os documentos dos alunos da academia, facilitando o acesso, a visualização e o acompanhamento das informações tanto pelos alunos quanto pelos professores. 
 
@@ -30,17 +32,57 @@ Responde à pergunta: Como? Com o que? Onde? Quando?)
 # 2. Requisitos
 
 ## • Requisitos funcionais
-(Escreva os requisitos funcionais da aplicação (funcionalidades esperadas,
-necessidades que devem ser atendidas))
+
+RF1 – Seção Hero (Apresentação Inicial)
+
+RF2 – Informações da Empresa
+
+RF3 – Equipe
+
+RF4 – História da Empresa
+
+RF5 – Serviços da Academia
+
+RF6 – Detalhes dos Serviços
+
+RF7 – Cases de Sucesso
+
+RF8 – Blog / Notícias
+
+RF9 – Redes Sociais
+
+RF10 – Login (Modelo)
+
+RF11 – Cadastro (Modelo)
+
+RF12 – Formulário de Exames
+
+RF13 – Armazenamento de Dados
+
+RF14 – Localização da Academia
+
+RF15 – Navegação
+
+RF16 – Perguntas Frequentes (FAQ)
+
+RF17 – Contato
 
 ## • Requisitos não funcionais
-(Escreva os requisitos não funcionais da aplicação (qualidade))
-- Requisitos de produto
-- Requisitos de organização
-- Requisitos de confiabilidade
-- Requisito de implementação
-- Requisito de padrões
-- Requisitos de interoperabilidade
+
+RNF1 – Usabilidade
+
+RNF2 – Responsividade
+
+RNF3 – Desempenho do site
+
+RNF4 – Disponibilidade
+
+RNF5 – Segurança
+
+RNF6 – Compatibilidade
+
+RNF7 – Manutenibilidade
+
 
 # 3. Regras de negócio (Modelo canvas)
 
@@ -48,7 +90,6 @@ necessidades que devem ser atendidas))
 
 
 # 4. Design
-(Paleta de cor, Tipografia, Logo, Wireframes, Modelo de navegação)
 
 -Paleta de cores
 
@@ -72,17 +113,16 @@ _inter (textos)
 
 <img width="100" height="100" alt="download" src="https://github.com/user-attachments/assets/def8ebc5-58b4-4de3-906c-268dd94a92ec" />
 
-
 -Wireframes
 
 <img width="297" height="617" alt="pag_inicial" src="https://github.com/user-attachments/assets/e13767e1-9d8e-4df8-8c7f-2ef1dcaf21f5" />
-
 
 -Modelo de navegação
 
 -<img width="855" height="52" alt="barra_navegação" src="https://github.com/user-attachments/assets/6c20c412-82b5-4638-a875-8ce8babf9bc8"/> 
 
 # 5. Protótipo
+
 (Gere um protótipo funcional na ferramenta que se sentir mais confortável (Figma, por
 exemplo) e apresente aqui, indicando o link).
 
