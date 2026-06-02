@@ -6,15 +6,10 @@
 - [2. Requisitos](#2-requisitos)
 - [Requisitos funcionais](#-requisitos-funcionais)
 - [Requisitos não funcionais](#-requisitos-não-funcionais)
-- [3. Modelo de casos de uso](#3-modelo-de-casos-de-uso)
-- [4. Modelo do banco de dados](#4-modelo-do-banco-de-dados)
-- [5. Banco de dados](#5-banco-de-dados)
-- [6. Diagrama de classes](#6-diagrama-de-classes)
-- [7. Estudo de viabilidade](#7-estudo-de-viabilidade)
-- [8. Regras de negócio (Modelo canvas)](#8-regras-de-negócio-modelo-canvas)
-- [9. Design](#9-design)
-- [10. Protótipo](#10-protótipo)
-- [11. Aplicação](#11-aplicação)
+- [3. Regras de negócio (Modelo canvas)](#3-regras-de-negócio-modelo-canvas)
+- [4. Design](#4-design)
+- [5. Protótipo](#5-protótipo)
+- [6. Aplicação](#6-aplicação)
 
 &lt;/details&gt;
 
@@ -45,23 +40,13 @@ necessidades que devem ser atendidas))
 - Requisito de padrões
 - Requisitos de interoperabilidade
 
-# 3. Modelo de casos de uso
+# 3. Regras de negócio (Modelo canvas)
 
-# 4. Modelo do banco de dados
-(Modelo conceitual, Modelo lógico, Físico)
-
-# 5. Banco de dados
-
-# 6. Diagrama de classes
-
-# 7. Estudo de viabilidade
-# 8. Regras de negócio (Modelo canvas)
-
-# 9. Design
+# 4. Design
 (Paleta de cor, Tipografia, Logo, Wireframes, Modelo de navegação)
 
-# 10. Protótipo
+# 5. Protótipo
 (Gere um protótipo funcional na ferramenta que se sentir mais confortável (Figma, por
 exemplo) e apresente aqui, indicando o link).
 
-# 11. Aplicação
+# 6 . Aplicação
