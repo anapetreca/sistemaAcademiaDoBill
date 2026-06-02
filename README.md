@@ -44,6 +44,7 @@ necessidades que devem ser atendidas))
 
 # 3. Regras de negócio (Modelo canvas)
 
+
 # 4. Design
 (Paleta de cor, Tipografia, Logo, Wireframes, Modelo de navegação)
 
