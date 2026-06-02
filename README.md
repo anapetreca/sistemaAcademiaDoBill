@@ -43,7 +43,7 @@ necessidades que devem ser atendidas))
 - Requisitos de interoperabilidade
 
 # 3. Regras de negócio (Modelo canvas)
-<img src="C:\Users\Samsung\Pictures\Screenshots\Modelo_Canva.png" alt="Modelo_Canva" width="300"/>
+![Modelo Canva](C:\Users\Samsung\Pictures\Screenshots\Modelo_Canva.png)
 
 # 4. Design
 (Paleta de cor, Tipografia, Logo, Wireframes, Modelo de navegação)
