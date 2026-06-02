@@ -20,6 +20,8 @@ incrementalmente.
 (Contextualização, Justificativa (porquê?)
 
 ## • Objetivos
+Desenvolver uma plataforma institucional  para exibir informações sobre academia do Bill.
+Na sequencia do projeto a ideia é organizar e gerenciar os documentos dos alunos da academia, facilitando o acesso, a visualização e o acompanhamento das informações tanto pelos alunos quanto pelos professores. 
 
 ## • Metodologia
 (Que métodos, tecnologias, modelos de processo, ferramentas irá utilizar?
