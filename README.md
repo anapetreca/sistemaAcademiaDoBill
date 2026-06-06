@@ -135,7 +135,6 @@ _inter (textos)
 
 # 5. Protótipo
 
-(Gere um protótipo funcional na ferramenta que se sentir mais confortável (Figma, por
-exemplo) e apresente aqui, indicando o link).
+https://www.figma.com/design/F1WhAqg5TEz5SlljxtASlM/PrototipoAcademiaBill?node-id=0-1&p=f&t=akWkOBzIAEWv7iC3-0
 
 # 6 . Aplicação
