@@ -138,3 +138,6 @@ _inter (textos)
 https://www.figma.com/design/F1WhAqg5TEz5SlljxtASlM/PrototipoAcademiaBill?node-id=0-1&p=f&t=akWkOBzIAEWv7iC3-0
 
 # 6 . Aplicação
+
+https://academiadobill.netlify.app/
+
