@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Serviços – Academia do Bill – Jaú</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="javascript/index.js" defer></script>
+</head>
+<body>
+
+  <!-- TOAST -->
+  <div class="toast" id="toast">✅ Operação realizada com sucesso!</div>
+
+  <!-- NAV -->
+  <nav id="mainNav">
+    <a class="nav-brand" href="index.html">
+      <div class="nav-logo">
+       <img src="img/Logotipo.png" style="height: 60px; width:60px;">
+      </div>
+      <span>Academia do Bill</span>
+    </a>
+    
+    <button class="menu-toggle" id="menuToggle" aria-label="Menu principal">
+      <span class="hamburger"></span>
+    </button>
+    
+    <div class="nav-menu-wrapper" id="navMenu">
+      <ul class="nav-links">
+        <li><a href="index.html" id="nav-home">Home</a></li>
+        <li><a href="servicos.html" id="nav-servicos">Serviços</a></li>
+        <li><a href="relatos.html">Histórias</a></li>
+        <li><a href="blog.html">Blog</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contato.html" id="nav-contato">Contato</a></li>
+      </ul>
+      <div class="nav-actions">
+        <a href="cadastro.html" class="btn-cadastro">Cadastro</a>
+        <a href="login.html" class="btn-login">Login</a>
+      </div>
+    </div>
+  </nav>
+  <!-- MAIN COMPONENT -->
+  <main class="page-content" id="home">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-left">
+        <div class="hero-badge">
+          <div class="hero-badge-inner">
+            <img src="img/Logotipo.png" alt="Logo" style="border-radius: 100%; width:400px; height:400px; margin-top:20px;">
+          </div>
+        </div>
+      </div>
+      <div class="hero-right">
+        <h1 class="hero-title">TRANSFORMANDO<br>VIDAS ATRAVÉS<br>DA <span>NATAÇÃO</span></h1>
+        <a href="cadastro.html" class="btn-hero">Quero Fazer Parte →</a>
+      </div>
+      <svg class="hero-wave" viewBox="0 0 1440 80" preserveAspectRatio="none">
+        <path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="#0000bf"/>
+      </svg>
+    </section>
+    <!-- CONTATO PAGE -->
+  <main class="page-content" id="contato">
+    <section class="contato-section">
+      <h1>FALE CONOSCO</h1>
+      <p class="sub">Estamos aqui para responder suas dúvidas e ajudar você a começar</p>
+      <div class="contato-grid">
+        <div class="contato-info">
+          <h3>Informações de Contato</h3>
+          <div class="contato-item">
+            <div class="contato-item-icon">📍</div>
+            <div class="contato-item-text">
+              <h4>Endereço</h4>
+              <p>Rua das Acácias, 1234 – Centro<br>Jaú – SP, CEP 17200-000</p>
+            </div>
+          </div>
+          <div class="contato-item">
+            <div class="contato-item-icon">📞</div>
+            <div class="contato-item-text">
+              <h4>Telefone / WhatsApp</h4>
+              <p>(14) 9 9999-9999</p>
+            </div>
+          </div>
+          <div class="contato-item">
+            <div class="contato-item-icon">✉️</div>
+            <div class="contato-item-text">
+              <h4>E-mail</h4>
+              <p>contato@academiabill.com.br</p>
+            </div>
+          </div>
+          <div class="contato-item">
+            <div class="contato-item-icon">🕐</div>
+            <div class="contato-item-text">
+              <h4>Horários</h4>
+              <p>Seg–Sex: 6h–22h<br>Sáb: 7h–17h | Dom: 8h–12h</p>
+            </div>
+          </div>
+          <div class="contato-redes">
+            <h4 class="contato-redes-title">Siga-nos nas redes</h4>
+            <div class="contato-redes-icons">
+              <a href="#" class="social-btn">f</a>
+              <a href="#" class="social-btn">ig</a>
+              <a href="#" class="social-btn">yt</a>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h3 class="envie-mensagem-title">Envie uma mensagem</h3>
+          <div class="contato-form" id="contactForm">
+            <div class="form-field">
+              <label for="cNome">Nome completo</label>
+              <input type="text" id="cNome" placeholder="Seu nome">
+            </div>
+            <div class="form-field">
+              <label for="cEmail">E-mail</label>
+              <input type="email" id="cEmail" placeholder="seu@email.com">
+            </div>
+            <div class="form-field">
+              <label for="cAssunto">Assunto</label>
+              <select id="cAssunto">
+                <option value="">Selecione o assunto</option>
+                <option>Informações sobre planos</option>
+                <option>Matrículas</option>
+                <option>Dúvidas gerais</option>
+                <option>Parceria</option>
+                <option>Outro</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label for="cMsg">Mensagem</label>
+              <textarea id="cMsg" placeholder="Escreva sua mensagem aqui..."></textarea>
+            </div>
+            <button class="btn-enviar" id="btn-contact-submit">Enviar mensagem →</button>
+          </div>
+        </div>
+      </div>
+    </section>
+</main>
+
+     <!-- FOOTER -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="brand-name">Academia do Bill – Jaú</div>
+        <p>Transformando vidas através da natação desde 2005. Seu bem-estar é nossa missão.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="servicos.html">Serviços</a></li>
+          <li><a href="planos.html">Planos</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Suporte</h4>
+        <ul>
+          <li><a href="contato.html">Contato</a></li>
+          <li><a href="#">Política de Privacidade</a></li>
+          <li><a href="#">Termos de Uso</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contato</h4>
+        <ul>
+          <li><a href="#">📍 Jaú – SP</a></li>
+          <li><a href="#">📞 (14) 9 9999-9999</a></li>
+          <li><a href="#">✉️ contato@academiabill.com.br</a></li>
+          <li><a href="#">🕐 Seg–Sex: 6h–22h</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Academia do Bill – Todos os direitos reservados</span>
+      <div class="social-links">
+        <a class="social-btn" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a class="social-btn" href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a class="social-btn" href="#"><i class="fa-brands fa-youtube"></i></a>
+      </div>
+    </div>
+  </footer>
+</body>

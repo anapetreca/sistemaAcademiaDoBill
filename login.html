@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login – Academia do Bill – Jaú</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="javascript/index.js" defer></script>
+</head>
+<body>
+
+  <!-- TOAST -->
+  <div class="toast" id="toast">✅ Operação realizada com sucesso!</div>
+
+  <!-- NAVBAR -->
+  <nav id="mainNav">
+    <a class="nav-brand" href="index.html">
+      <div class="nav-logo">
+          <img src="img/Logotipo.png" style="height: 60px; width:60px;">
+      </div>
+      <span>Academia do Bill</span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Menu principal">
+      <span class="hamburger"></span>
+    </button>
+
+    <div class="nav-menu-wrapper" id="navMenu">
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="servicos.html">Serviços</a></li>
+        <li><a href="planos.html">Planos</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+      <div class="nav-actions">
+        <a href="cadastro.html" class="btn-cadastro">Cadastro</a>
+        <a href="login.html" class="btn-login active">Login</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- LOGIN PAGE -->
+  <main class="page-content" id="login">
+    <div class="auth-card">
+      <div class="auth-logo">
+        <div class="logo-circle">
+          <div class="logo-inner">
+           <img src="img/Logotipo.png" style="height: 160px; width:100px;">
+          </div>
+        </div>
+      </div>
+      <h2>Acesse sua conta</h2>
+      <div class="input-group">
+        <span class="input-icon">✉️</span>
+        <input type="email" id="loginEmail" placeholder="Seu e-mail">
+      </div>
+      <div class="forgot-link"><a>Esqueci meu e-mail?</a></div>
+      <div class="input-group">
+        <span class="input-icon">🔒</span>
+        <input type="password" id="loginSenha" placeholder="Sua senha">
+        <button class="eye-btn" type="button" data-target="loginSenha">👁</button>
+      </div>
+      <div class="forgot-link"><a>Esqueci minha senha?</a></div>
+      <div class="login-role-container">
+        <span class="role-badge">PROFESSOR</span>
+      </div>
+      <div class="auth-link">Ainda não tem conta? <a href="cadastro.html">Cadastre-se</a></div>
+      <button class="auth-submit" id="btn-login-submit">Entrar</button>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="brand-name">Academia do Bill – Jaú</div>
+        <p>Transformando vidas através da natação desde 2005. Seu bem-estar é nossa missão.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="servicos.html">Serviços</a></li>
+          <li><a href="planos.html">Planos</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Suporte</h4>
+        <ul>
+          <li><a href="contato.html">Contato</a></li>
+          <li><a href="#">Política de Privacidade</a></li>
+          <li><a href="#">Termos de Uso</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contato</h4>
+        <ul>
+          <li><a href="#">📍 Jaú – SP</a></li>
+          <li><a href="#">📞 (14) 9 9999-9999</a></li>
+          <li><a href="#">✉️ contato@academiabill.com.br</a></li>
+          <li><a href="#">🕐 Seg–Sex: 6h–22h</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Academia do Bill – Todos os direitos reservados</span>
+      <div class="social-links">
+        <a class="social-btn" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a class="social-btn" href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a class="social-btn" href="#"><i class="fa-brands fa-youtube"></i></a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

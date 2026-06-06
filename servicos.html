@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Serviços – Academia do Bill – Jaú</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="javascript/index.js" defer></script>
+</head>
+<body>
+
+  <!-- TOAST -->
+  <div class="toast" id="toast">✅ Operação realizada com sucesso!</div>
+
+  <!-- NAV -->
+  <nav id="mainNav">
+    <a class="nav-brand" href="index.html">
+      <div class="nav-logo">
+        <img src="img/Logotipo.png" style="height: 60px; width:60px;">
+      </div>
+      <span>Academia do Bill</span>
+    </a>
+    
+    <button class="menu-toggle" id="menuToggle" aria-label="Menu principal">
+      <span class="hamburger"></span>
+    </button>
+    
+    <div class="nav-menu-wrapper" id="navMenu">
+      <ul class="nav-links">
+        <li><a href="index.html" id="nav-home">Home</a></li>
+               <li><a href="servicos.html" id="nav-servicos">Serviços</a></li>
+        <li><a href="relatos.html">Histórias</a></li>
+        <li><a href="blog.html">Blog</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contato.html" id="nav-contato">Contato</a></li>
+      </ul>
+      <div class="nav-actions">
+        <a href="cadastro.html" class="btn-cadastro">Cadastro</a>
+        <a href="login.html" class="btn-login">Login</a>
+      </div>
+    </div>
+  </nav>
+  <section class="hero">
+      <div class="hero-left">
+        <div class="hero-badge">
+          <div class="hero-badge-inner">
+            <img src="img/Logotipo.png" alt="Logo" style="border-radius: 100%; width:400px; height:400px; margin-top:20px;">
+          </div>
+        </div>
+      </div> 
+
+
+      <div class="hero-right">
+        <h1 class="hero-title">TRANSFORMANDO<br>VIDAS ATRAVÉS<br>DA <span>NATAÇÃO</span></h1>
+        <a href="cadastro.html" class="btn-hero">Quero Fazer Parte →</a>
+      </div>
+      <svg class="hero-wave" viewBox="0 0 1440 80" preserveAspectRatio="none">
+        <path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="#0000bf"/>
+      </svg>
+    </section>
+
+  <!-- SERVIÇOS PAGE -->
+  <main id="servicos" class="page-content">
+    <div class="servicos-header">
+      <h1>NOSSOS SERVIÇOS</h1>
+      <p>Tudo que você precisa para uma vida mais saudável e ativa</p>
+    </div>
+    <div class="servicos-grid">
+      <div class="servico-card">
+        <img class="mvv3-img" src="img/natação_adulto.jpg" style="width: 370px;">
+        <div class="servico-conteudo">
+        <h3>Natação Adulto</h3>
+        <p>Aulas para adultos de todos os níveis, do iniciante ao avançado. Professores especializados e horários flexíveis para encaixar na sua rotina.</p>
+        <span class="servico-badge">Disponível</span>
+      </div>
+      </div>
+      <div class="servico-card">
+        <img class="mvv3-img" src="img/natação_infantil.jpg">
+        <div class="servico-conteudo">
+        <h3>Natação Infantil</h3>
+        <p>Atividades lúdicas e pedagógicas para crianças a partir de 3 meses. Estimula o desenvolvimento motor, cognitivo e social dos pequenos.</p>
+        <span class="servico-badge">Disponível</span>
+        </div>
+      </div>
+      <div class="servico-card">
+        <img class="mvv3-img" src="img/hidroginastica.jpg">
+        <div class="servico-conteudo">
+        <h3>Hidroginástica</h3>
+        <p>Exercícios de baixo impacto na água ideais para todas as idades. Melhora condicionamento, flexibilidade e fortalecimento muscular.</p>
+        <span class="servico-badge">Disponível</span>
+      </div>
+      </div>
+      <div class="servico-card">
+        <img class="mvv3-img" src="img/Competição.jpg">
+        <div class="servico-conteudo">
+        <h3>Natação Competitiva</h3>
+        <p>Treinamento especializado para atletas que desejam competir em campeonatos regionais, estaduais e nacionais.</p>
+        <span class="servico-badge">Disponível</span>
+      </div>
+      </div>
+      <div class="servico-card">
+        <img class="mvv3-img" src="img/bebe_aquatico.jpg">
+        <div class="servico-conteudo">
+        <h3>Aulas para Bebês</h3>
+        <p>Estimulação aquática para bebês de 3 a 18 meses. Promove confiança na água, desenvolvimento neuromotor e fortalece o vínculo com os pais.</p>
+        <span class="servico-badge">Disponível</span>
+      </div>
+      </div>
+      </div>
+    </div>
+    <section>
+      <!-- Planos -->
+  <div style="background:var(--white); padding:0 60px 60px;">
+    <div class="section-header" style="background:var(--primary);">
+      <h2 style="color:var(--secondary);">PLANOS E PREÇOS</h2>
+    </div>
+    <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:24px; max-width:900px; margin:0 auto;">
+      <div style="border:2px solid #dde; border-radius:20px; padding:32px 24px; text-align:center;">
+        <h3 style="font-family:'Bebas Neue'; font-size:1.5rem; color:var(--primary); letter-spacing:2px;">BÁSICO</h3>
+        <div style="font-family:'Bebas Neue'; font-size:3rem; color:var(--primary); margin:16px 0 4px;">R$89</div>
+        <div style="font-size:.82rem; color:#888; margin-bottom:20px;">/mês</div>
+        <ul style="list-style:none; font-size:.88rem; line-height:2; color:#555; text-align:left;">
+          <li>✅ 2x por semana</li>
+          <li>✅ 1 modalidade</li>
+          <li>✅ Acesso à piscina</li>
+          <li>❌ Acompanhamento VIP</li>
+        </ul>
+        <button class="btn-cadastro" style="width:100%; margin-top:20px; border-radius:12px;" onclick="showPage('cadastro')">Contratar</button>
+      </div>
+      <div style="border:3px solid var(--secondary); border-radius:20px; padding:32px 24px; text-align:center; background:var(--primary); position:relative;">
+        <div style="position:absolute; top:-14px; left:50%; transform:translateX(-50%); background:var(--secondary); color:var(--primary); padding:4px 16px; border-radius:20px; font-weight:900; font-size:.8rem;">MAIS POPULAR</div>
+        <h3 style="font-family:'Bebas Neue'; font-size:1.5rem; color:var(--secondary); letter-spacing:2px;">PREMIUM</h3>
+        <div style="font-family:'Bebas Neue'; font-size:3rem; color:var(--secondary); margin:16px 0 4px;">R$149</div>
+        <div style="font-size:.82rem; color:rgba(255,255,255,.6); margin-bottom:20px;">/mês</div>
+        <ul style="list-style:none; font-size:.88rem; line-height:2; color:rgba(255,255,255,.85); text-align:left;">
+          <li>✅ 5x por semana</li>
+          <li>✅ 2 modalidades</li>
+          <li>✅ Acesso à piscina</li>
+          <li>✅ Acompanhamento VIP</li>
+        </ul>
+        <button class="btn-login" style="width:100%; margin-top:20px; border-radius:12px;" onclick="showPage('cadastro')">Contratar</button>
+      </div>
+      <div style="border:2px solid #dde; border-radius:20px; padding:32px 24px; text-align:center;">
+        <h3 style="font-family:'Bebas Neue'; font-size:1.5rem; color:var(--primary); letter-spacing:2px;">FAMÍLIA</h3>
+        <div style="font-family:'Bebas Neue'; font-size:3rem; color:var(--primary); margin:16px 0 4px;">R$229</div>
+        <div style="font-size:.82rem; color:#888; margin-bottom:20px;">/mês</div>
+        <ul style="list-style:none; font-size:.88rem; line-height:2; color:#555; text-align:left;">
+          <li>✅ Ilimitado</li>
+          <li>✅ Todas as modalidades</li>
+          <li>✅ Até 3 dependentes</li>
+          <li>✅ Acompanhamento VIP</li>
+        </ul>
+        <button class="btn-cadastro" style="width:100%; margin-top:20px; border-radius:12px;" onclick="showPage('cadastro')">Contratar</button>
+      </div>
+    </div>
+  </div>
+ 
+  <footer>
+    <div class="footer-bottom" style="border-top:none; padding-top:0;">
+      <span>© 2025 Academia do Bill – Jaú</span>
+      
+    </div>
+  </footer>
+</div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="brand-name">Academia do Bill – Jaú</div>
+        <p>Transformando vidas através da natação desde 2005. Seu bem-estar é nossa missão.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="servicos.html">Serviços</a></li>
+          <li><a href="planos.html">Planos</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Suporte</h4>
+        <ul>
+          <li><a href="contato.html">Contato</a></li>
+          <li><a href="#">Política de Privacidade</a></li>
+          <li><a href="#">Termos de Uso</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contato</h4>
+        <ul>
+          <li><a href="#">📍 Jaú – SP</a></li>
+          <li><a href="#">📞 (14) 9 9999-9999</a></li>
+          <li><a href="#">✉️ contato@academiabill.com.br</a></li>
+          <li><a href="#">🕐 Seg–Sex: 6h–22h</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Academia do Bill – Todos os direitos reservados</span>
+      <div class="social-links">
+        <a class="social-btn" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a class="social-btn" href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a class="social-btn" href="#"><i class="fa-brands fa-youtube"></i></a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

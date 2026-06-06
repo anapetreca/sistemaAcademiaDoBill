@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Serviços – Academia do Bill – Jaú</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="javascript/index.js" defer></script>
+</head>
+<body>
+
+  <!-- TOAST -->
+  <div class="toast" id="toast">✅ Operação realizada com sucesso!</div>
+
+  <!-- NAV -->
+  <nav id="mainNav">
+    <a class="nav-brand" href="index.html">
+      <div class="nav-logo">
+        <img src="img/Logotipo.png" style="height: 60px; width:60px;">
+      </div>
+      <span>Academia do Bill</span>
+    </a>
+    
+    <button class="menu-toggle" id="menuToggle" aria-label="Menu principal">
+      <span class="hamburger"></span>
+    </button>
+    
+    <div class="nav-menu-wrapper" id="navMenu">
+      <ul class="nav-links">
+        <li><a href="index.html" id="nav-home">Home</a></li>
+        <li><a href="servicos.html" id="nav-servicos">Serviços</a></li>
+        <li><a href="relatos.html">Histórias</a></li>
+        <li><a href="blog.html">Blog</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contato.html" id="nav-contato">Contato</a></li>
+      </ul>
+      <div class="nav-actions">
+        <a href="cadastro.html" class="btn-cadastro">Cadastro</a>
+        <a href="login.html" class="btn-login">Login</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HOME PAGE -->
+  <main class="page-content" id="home">
+    <!-- HERO -->
+   <section class="hero">
+      <div class="hero-left">
+        <div class="hero-badge">
+          <div class="hero-badge-inner">
+            <img src="img/Logotipo.png" alt="Logo" style="border-radius: 100%; width:400px; height:400px; margin-top:20px;">
+          </div>
+        </div>
+      </div> 
+
+
+      <div class="hero-right">
+        <h1 class="hero-title">TRANSFORMANDO<br>VIDAS ATRAVÉS<br>DA <span>NATAÇÃO</span></h1>
+        <a href="cadastro.html" class="btn-hero">Quero Fazer Parte →</a>
+      </div>
+      <svg class="hero-wave" viewBox="0 0 1440 80" preserveAspectRatio="none">
+        <path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="#0000bf"/>
+      </svg>
+    </section>
+
+<!-- SOBRE -->
+  <main class="page-content" id="sobre">
+    <!-- INSTITUCIONAL -->
+    <section class="sobre-section">
+      <div class="section-header"><h2>SOBRE</h2></div>
+      <div class="mvv-grid">
+        <div class="mvv-card">
+           <div class="mvv-img">
+               <img src="img/Missão.png" alt="Missão">
+              </div>
+          <div class="mvv-body">
+            <h3>Missão</h3>
+            <p>Promover saúde, bem-estar e qualidade de vida por meio da prática de atividades físicas, oferecendo um ambiente acolhedor, equipamentos adequados e acompanhamento profissional para auxiliar os alunos no alcance de seus objetivos.</p>
+          </div>
+        </div>
+        <div class="mvv-card">
+         <div class="mvv-img">
+              <img src="img/Visão.png" alt="Visão">
+          </div>
+          <div class="mvv-body">
+            <h3>Visão</h3>
+            <p>Ser reconhecida como uma academia de referência na região, destacando-se pela qualidade dos serviços prestados, pela satisfação dos alunos e pelo compromisso com a promoção da saúde e do desenvolvimento físico.</p>
+          </div>
+        </div>
+        <div class="mvv-card card-valores">
+          <div class="mvv-img">
+          <img src="img/Valores.jpg" alt="Valores">
+        </div>
+          <div class="mvv-body">
+            <h3>Valores</h3>
+            <p>Nossos valores são baseados no compromisso com a saúde, no respeito a cada aluno e na busca constante pela evolução pessoal. Valorizamos a disciplina, a dedicação e o incentivo mútuo, criando um ambiente acolhedor.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- UM POUCO MAIS -->
+    <section class="mais-section">
+      <div class="section-header"><h2>Um pouco mais sobre nós</h2></div>
+      <div class="cards-grid">
+        <div class="info-card">
+          <div class="mvv2-img">
+              <img src="img/Por que nós.jpg" alt="Sobre nós">
+          </div>
+          <div class="info-card-body">
+            <h3>Sobre nós</h3>
+            <p>A Academia do Bill promove saúde, bem-estar e qualidade de vida. Nosso objetivo é ajudar você a alcançar seus resultados com dedicação e acompanhamento.</p>
+            <a href="contato.html" class="btn-card-link">Saiba mais</a>
+          </div>
+        </div>
+        <div class="info-card">
+          <div class="mvv2-img">
+              <img src="img/Planos.jpg" alt="Planos" style="width: 360px;">
+          </div>
+          <div class="info-card-body">
+            <h3>Planos</h3>
+            <p>Oferecemos planos acessíveis e flexíveis para atender diferentes objetivos. Escolha a opção ideal para sua rotina e comece sua evolução hoje mesmo.</p>
+            <a href="planos.html" class="btn-card-link">Ver planos</a>
+          </div>
+        </div>
+        <div class="info-card">
+          <div class="mvv2-img">
+              <img src="img/Metas.jpg" alt="Metas">
+          </div>
+          <div class="info-card-body">
+            <h3>Metas</h3>
+            <p>Transforme seus objetivos em resultados. Nossas metas são incentivar a evolução, a saúde e o bem-estar de cada aluno, além da liberdade do mesmo.</p>
+            <a href="index.html" class="btn-card-link">Histórias</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- POR QUE A GENTE -->
+    <section class="porque-section">
+      <div class="section-header"><h2>POR QUE A GENTE?</h2></div>
+      <div class="tabs-wrapper">
+        <div class="tabs">
+          <button class="tab-btn active" data-index="0">Motivo 1</button>
+          <button class="tab-btn" data-index="1">Motivo 2</button>
+          <button class="tab-btn" data-index="2">Motivo 3</button>
+        </div>
+        <div class="tab-content">
+          <div class="tab-panel active" id="tab0">
+            Na Academia do Bill, cada aluno é tratado de forma única. Nosso compromisso é oferecer um ambiente acolhedor, equipamentos de qualidade e o suporte necessário para que você alcance seus objetivos com confiança. Seja para ganhar massa muscular, melhorar o condicionamento físico ou adotar hábitos mais saudáveis, estamos prontos para acompanhar sua evolução. Aqui, sua dedicação encontra a estrutura ideal para transformar esforço em resultados.
+          </div>
+          <div class="tab-panel" id="tab1">
+            Contamos com uma equipe de professores altamente qualificados e apaixonados pelo que fazem. Cada profissional é treinado para oferecer o melhor acompanhamento técnico, garantindo que sua evolução aconteça de forma segura e eficiente. Nossos instrutores estão sempre disponíveis para tirar dúvidas, ajustar treinos e motivar cada aluno a superar seus limites com segurança.
+          </div>
+          <div class="tab-panel" id="tab2">
+            Nossa infraestrutura foi pensada para proporcionar a melhor experiência de treino. Piscinas aquecidas e bem mantidas, vestiários modernos e um espaço confortável e acolhedor fazem parte do nosso compromisso com o bem-estar dos alunos. Tudo para que você se sinta motivado a voltar sempre e dar o seu melhor a cada sessão.
+          </div>
+        </div>
+      </div>
+    </section>
+  
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="brand-name">Academia do Bill – Jaú</div>
+        <p>Transformando vidas através da natação desde 2005. Seu bem-estar é nossa missão.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="servicos.html">Serviços</a></li>
+          <li><a href="planos.html">Planos</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Suporte</h4>
+        <ul>
+          <li><a href="contato.html">Contato</a></li>
+          <li><a href="#">Política de Privacidade</a></li>
+          <li><a href="#">Termos de Uso</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contato</h4>
+        <ul>
+          <li><a href="#">📍 Jaú – SP</a></li>
+          <li><a href="#">📞 (14) 9 9999-9999</a></li>
+          <li><a href="#">✉️ contato@academiabill.com.br</a></li>
+          <li><a href="#">🕐 Seg–Sex: 6h–22h</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Academia do Bill – Todos os direitos reservados</span>
+      <div class="social-links">
+        <a class="social-btn" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a class="social-btn" href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a class="social-btn" href="#"><i class="fa-brands fa-youtube"></i></a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
