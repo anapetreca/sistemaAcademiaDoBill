@@ -1,4 +1,13 @@
-<p align="left" style="font-size:28px;"><em><strong>Documento PI</strong></em></p>
+<p align="left" style="font-size:28px;"><em><strong>Documento PI 2° semestre FATEC JAHU</strong></em></p>  
+
+<p align="left" style="font-size:28px;"><em><strong>Equipe Responsável</strong></em></p>
+<ul>
+  <li>Ana Julia de Abreu Petreca</li>
+  <li>Luan Vinicius dos Santos</li>
+  <li>Luiz Guilherme Candido</li>
+  <li>Danilo M. Saldanha</li>
+  <li>Kauan Gabriel Freitas</li>
+</ul>   
 
 - [1. Introdução](#1-introdução)
 - [Objetivos](#-objetivos)
